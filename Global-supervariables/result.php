@@ -1,9 +1,16 @@
 <?php
-$top_shows  = $_POST["Top-shows"];
+$top_shows = $_POST["Top-shows"];
 $top_movies = $_POST["Top-movies"];
+
 
 $fav_country = $_GET["Favourite-country"];
 $worst_movie = $_GET["Worst-movie"];
+
+//$movies = $_POST['movie'];
+//foreach($movies as $movie){
+//    echo $movie . "<br />";
+//}
+
 
 ?>
 
@@ -11,6 +18,26 @@ $worst_movie = $_GET["Worst-movie"];
 <html>
 
 <head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 25px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            width: 50%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+            width: 50%;
+        }
+    </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <title>Results</title>
@@ -27,17 +54,49 @@ $worst_movie = $_GET["Worst-movie"];
     <div class="tab-content">
         <?php if($_SERVER['REQUEST_METHOD'] == 'POST') : ?>
             <div id="post" class="tab-pane fade in active">
+                <table>
+                    <tr>
+                        <th>Your top 5 shows:</th>
+                        <th></th>
+                    </tr>
                 <?php
-                echo "Your top 5 shows are: $top_shows";
-                echo ", and your top 5 movies are: $top_movies".".";
+                foreach($top_shows as $key => $top_show){
+                    echo "<tr><td>$key</td><td>$top_show</td></tr>\n";
+                }
                 ?>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Your top 5 movies:</th>
+                        <th></th>
+                    </tr>
+                    <?php
+                foreach($top_movies as $key => $top_movie){
+                    echo "<tr><td>$key</td><td>$top_movie</td></tr>\n";
+                }
+                ?>
+                </table>
             </div>
         <?php elseif($_SERVER['REQUEST_METHOD'] == 'GET') : ?>
             <div id="get" class="tab-pane fade in active">
+                <table>
+                    <tr>
+                        <th>Your favorite country</th>
+                    </tr>
                 <?php
-                echo "Your favorite country is: $fav_country";
-                echo ", and your worst ever movie is: $worst_movie".".";
+                echo "<tr><td>$fav_country</td></tr>\n";
                 ?>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Your worst ever movie</th>
+                    </tr>
+                    <?php
+                    echo "<tr><td>$worst_movie</td></tr>\n";
+                ?>
+                </table>
             </div>
         <?php endif ?>
     </div>
