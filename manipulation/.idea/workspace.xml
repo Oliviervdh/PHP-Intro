@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bca1a5e-f8ca-4e54-a82d-90642dcadc03" name="Default Changelist" comment="Object manipulation step 8. &quot;Check.&quot;">
+    <list default="true" id="6bca1a5e-f8ca-4e54-a82d-90642dcadc03" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/Login validation.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/modules.xml" afterDir="false" />
@@ -15,10 +15,11 @@
       <change afterPath="$PROJECT_DIR$/../Login-validation/user.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Login-validation/water.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Login-validation/welcome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylesheet2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Login-validation/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Login-validation/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nickname.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +52,8 @@
         <option value="$PROJECT_DIR$/nickname.php" />
         <option value="$PROJECT_DIR$/stylesheet2.css" />
         <option value="$PROJECT_DIR$/step 7 - 8.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/security.php" />
         <option value="$PROJECT_DIR$/home.php" />
       </list>
     </option>
@@ -70,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,7 +85,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +125,7 @@
       <workItem from="1558528028538" duration="4117000" />
       <workItem from="1558595703891" duration="278000" />
       <workItem from="1558596695565" duration="34052000" />
+      <workItem from="1558706478972" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="4.1 Nickname generator.">
       <created>1558527142284</created>
@@ -130,11 +134,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558527142284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Object manipulation. &quot;Finished&quot;">
+      <created>1558706555280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558706555281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59957000" />
+    <option name="totallyTimeSpent" value="60951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -142,7 +153,6 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.5442937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980047" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -155,6 +165,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -167,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4.1 Nickname generator." />
     <MESSAGE value="Object manipulation step 8. &quot;Check.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object manipulation step 8. &quot;Check.&quot;" />
+    <MESSAGE value="Object manipulation. &quot;Finished&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object manipulation. &quot;Finished&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stylesheet.css">
@@ -204,15 +216,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.php">
+    <entry file="file://$PROJECT_DIR$/stylesheet2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet2.css">
+    <entry file="file://$PROJECT_DIR$/homee.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="234" column="2" selection-start-line="234" selection-start-column="2" selection-end-line="234" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
