@@ -3,21 +3,39 @@ session_start();
 require 'security.php';
 include 'functions.php';
 
-if(isset($_POST["nickname"])){
-    echo "<pre>";
-    print_r(nickname_generate($_POST["nickname"]));
-    echo "</pre>";
-    unset($_POST["nickname"]);
+if($_POST["option"] == "YES") {
+    echo "<h2>" . nickname_generate("awesomeNickname") . "</h2>";
+} else if ($_POST["option"] == "NO") {
+    showHome();
+} else if (isset($_POST["generate"]) || isset($_POST["revert"]) || isset($_POST["nickname"])) {
+    showHome();
+
+} else {
+    securityPage();
 }
 
 
-if(isset($_POST["generate"])){
+function handleClick(){
 
-    object_generate();
+    if (isset($_POST["generate"])) {
+        object_generate();
+    }
 
+    if (isset($_POST["revert"])) {
+        object_revert();
+    }
+
+    if (isset($_POST["nickname"])) {
+        echo "<pre>";
+        print_r(nickname_generate($_POST["nickname"]));
+        echo "</pre>";
+        unset($_POST["nickname"]);
+    }
 }
 
-?>
+function showHome() {
+
+print <<< HOME
 
 <!doctype html>
 <html lang="en">
@@ -33,30 +51,51 @@ if(isset($_POST["generate"])){
 <body>
 
 <div class="container">
-<div class="box1">
+<div class="wrapper1">
+    <div class="in1">
     <form method="post">
     <button type="submit" name="generate" class="w3-button btn w3-indigo w3-round-xxlarge">Generate object!</button>
     </form>
+    </div>
+    <div class="out1">
 
+    </div>
 </div>
 
-
-<div class="box2">
+<div class="wrapper2">
+    <div class="in2">
     <form method="post">
     <button type="submit" name="revert" class="w3-button btn w3-indigo w3-round-xxlarge">Revert object!</button>
     </form>
+    </div>
+    <div class="out2">
+
+    </div>
 </div>
 
-
-<div class="box3">
-    <form method="post">
-    <input class="input" name="nickname" type="text">
+<div class="wrapper3">
+    <div class="in3">
+    <form method="post">    
         <button type="submit" name="submit" class="w3-button btn w3-indigo w3-round-xxlarge">Get a nickname!</button>
+        <input class="input" name="nickname" type="text">
     </form>
+    </div>
+    <div class="out3">
 
+    </div>
    </div>
+
+HOME;
+
+handleClick();
+
+print <<< HOME2
 
 
 </div>
 </body>
 </html>
+
+HOME2;
+};
+?>

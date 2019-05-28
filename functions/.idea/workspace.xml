@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86304452-f2f8-404d-89be-cad884f401a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/Login validation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/bridge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/house.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/water.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Login-validation/welcome.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login-validation/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Login-validation/stylesheet.css" afterDir="false" />
+    <list default="true" id="86304452-f2f8-404d-89be-cad884f401a0" name="Default Changelist" comment="Exercise 5 function Finished.">
+      <change afterPath="$PROJECT_DIR$/copy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security.php" beforeDir="false" afterPath="$PROJECT_DIR$/security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manipulation/object-manipulation/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../manipulation/object-manipulation/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manipulation/stylesheet2.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,31 +22,30 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="functions" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheet.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="1365">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
@@ -67,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="495">
+              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -89,11 +78,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/homee.php" />
-        <option value="$PROJECT_DIR$/stylesheet.css" />
-        <option value="$PROJECT_DIR$/security.php" />
         <option value="$PROJECT_DIR$/../manipulation/Object manipulation/home.php" />
+        <option value="$PROJECT_DIR$/../manipulation/object-manipulation/home.php" />
+        <option value="$PROJECT_DIR$/../manipulation/nicname-generator/nickname.php" />
+        <option value="$PROJECT_DIR$/copy.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/security.php" />
         <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -101,9 +93,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="153" />
-    <option name="y" value="130" />
-    <option name="width" value="607" />
+    <option name="x" value="655" />
+    <option name="y" value="31" />
+    <option name="width" value="711" />
     <option name="height" value="713" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -111,12 +103,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manipulation/object-manipulation/home.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manipulation/nicname-generator/nickname.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -147,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558707609190</updated>
       <workItem from="1558707610685" duration="3726000" />
-      <workItem from="1558943891112" duration="7889000" />
+      <workItem from="1558943891112" duration="26248000" />
     </task>
     <task id="LOCAL-00001" summary="nickname_generate() Done.">
       <created>1558951114223</created>
@@ -156,19 +161,27 @@
       <option name="project" value="LOCAL" />
       <updated>1558951114223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="object_generate() Done.">
+      <created>1558952529610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558952529610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11615000" />
+    <option name="totallyTimeSpent" value="29974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5711679" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" weight="0.5706305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24980047" />
+      <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.5706305" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -192,7 +205,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nickname_generate() Done." />
-    <option name="LAST_COMMIT_MESSAGE" value="nickname_generate() Done." />
+    <MESSAGE value="object_generate() Done." />
+    <MESSAGE value="Exercise 5 function Finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 5 function Finished." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../manipulation/Object manipulation/home.php">
@@ -202,41 +217,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security.php">
+    <entry file="file://$PROJECT_DIR$/../manipulation/object-manipulation/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="89">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/../manipulation/nicname-generator/nickname.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="397">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="99" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/copy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="91" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../manipulation/object-manipulation/home.php">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="1365">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1155">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
         </state>
       </provider>
     </entry>

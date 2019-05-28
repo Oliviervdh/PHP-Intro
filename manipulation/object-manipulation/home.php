@@ -199,10 +199,10 @@ echo "</pre>";
 <?php
 echo "<pre>";
 
-$cat_food -> arr1 = $sliced_array_first; // adds the first part of sliced array to the object.
-$cat_food -> arr2 = $sliced_array_second; // adds the second ............
+$dog_food -> arr1 = $sliced_array_first; // adds the first part of sliced array to the object.
+$dog_food -> arr2 = $sliced_array_second; // adds the second ............
 
-print_r($cat_food);
+print_r($dog_food);
 
 
 echo "</pre>";
@@ -213,6 +213,7 @@ echo "<pre>";
 
 foreach ($ass_arr_pet_height as $key => $value){ //
     $dog_food -> $key = $value;
+
 }
 print_r($dog_food);
 
@@ -224,8 +225,8 @@ echo "<pre>";
 
 $dog_food_cookie = json_encode($dog_food);
 $_COOKIE["Cookie4object"] = $dog_food_cookie;
-
 $_SESSION["Session4object"] = $dog_food_cookie;
+
 echo "</pre>";
 ?>
 <h2>STEP 11: Find a way to print this final object on the homepage, in an easily readable way.</h2>
@@ -234,5 +235,7 @@ echo "<pre>";
 print_r(json_decode($_COOKIE["Cookie4object"]));
 echo "</pre>";
 ?>
+
+
 </body>
 </html>
